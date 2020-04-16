@@ -1,5 +1,10 @@
 #! /usr/bin/python3
 # to do first install: pip install qrcode[pil]
+# Dependencies to install (Some of them you might not happen to use):
+# Django==2.2.1,image==1.5.27,numpy==1.16.3, pandas==0.24.2
+#,Pillow==6.0.0, PyQRCode==1.2.1,python-dateutil==2.8.0,pytz==2019.1
+# qrcode==6.1,six==1.12.0,sqlparse==0.3.0,xlrd==1.2.0
+
 import qrcode
 import pyqrcode
 import pandas as pd
